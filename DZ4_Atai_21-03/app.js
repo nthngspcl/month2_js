@@ -19,7 +19,6 @@ console.log(count);
 //сортировка
 var objToArr = Object.entries(count);
 bubbleSortConcept1(objToArr);
-console.log(objToArr);
 var counted = Object.fromEntries(objToArr);
 console.log(counted)
 
