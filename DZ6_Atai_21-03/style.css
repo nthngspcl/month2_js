@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+    background-color: #495057;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    height: 45px;
+    width: 45px;
+    border-radius: 35%;
+    border-style: none;
+    background-color:#ced4da;
+    font-size:29px;
+    margin: 14px;
+}
+button:hover{
+    background-color:#adb5bd ;
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    border-style: none;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #f8f9fa;
+}
